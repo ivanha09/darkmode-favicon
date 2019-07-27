@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    background-color: red;
+  }
+
+  #root {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  h1 {
+    background-color: blue;
+  }
+
+  #root {
+    background-color: white;
+    color: black;
+  }
+}
